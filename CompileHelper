@@ -2,6 +2,6 @@ export ARCH=arm CROSS_COMPILE=/home/godfatherx64/android/du/prebuilts/gcc/linux-
 
 make clean && make mrproper
 
-make msm8974_sec_defconfig VARIANT_DEFCONFIG=msm8974_sec_hlte_eur_defconfig SELINUX_DEFCONFIG=selinux_defconfig
+make unicornblood_defconfig VARIANT_DEFCONFIG=unicornblood_hlte_eur_defconfig SELINUX_DEFCONFIG=selinux_defconfig
 
-make -j9
+make -j3
